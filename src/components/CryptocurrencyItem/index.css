@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.crypto-image-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.crypto-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.crypto-type-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.text-value {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.usd-text {
+  margin-right: 40px;
+}

@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.crypto-heading {
+  color: #00e7ff;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.image {
+  width: 80%;
+}
+.crypto-app-container {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #00e7ff;
+  border-radius: 8px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.coin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  padding-left: 40px;
+}
+.coin-type-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.type-text-container {
+  display: flex;
+  flex-direction: row;
+}
+.usd-text {
+  margin-right: 40px;
+}
+.crypto-container {
+  list-style-type: none;
+}
+.euro-text {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .crypto-heading {
+    font-size: 25px;
+  }
+  .crypto-app-container {
+    width: 90%;
+  }
+  .image {
+    width: 90%;
+  }
+  .app-container {
+    justify-content: center;
+  }
+}
